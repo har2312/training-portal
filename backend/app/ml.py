@@ -24,7 +24,7 @@ from sqlalchemy.orm import Session
 
 from . import models
 from .constants import (
-    TOPICS, TECHNICAL_TOPICS, designation_rank, meets_threshold,
+    TOPICS, TECHNICAL_TOPICS, designation_rank, designation_allowed,
 )
 
 _rf_model: RandomForestClassifier | None = None
@@ -168,7 +168,10 @@ def build_reason(row, workshop: models.Workshop, tmat: pd.DataFrame | None = Non
     else:
         parts.append(f"{tcount} prior {workshop.topic} training(s)")
 
-    parts.append(f"{row['designation']} (meets {workshop.min_designation}+)")
+    if workshop.allowed_designations:
+        parts.append(f"{row['designation']} (eligible grade)")
+    else:
+        parts.append(f"{row['designation']} (meets {workshop.min_designation}+)")
     ps = row.get("performance_score")
     if ps is not None and pd.notna(ps):
         parts.append("High performance" if int(ps) >= 8 else "Solid performance" if int(ps) >= 5 else "Developing")
@@ -185,10 +188,13 @@ def rank_candidates(db: Session, workshop: models.Workshop, exclude_ids=None, li
     )
     tmat = _topic_matrix(db)
 
-    # Hard filters: retirement, designation threshold, exclusions.
+    # Hard filters: retirement, designation eligibility (explicit set or
+    # legacy threshold), exclusions.
     elig = people[people["service_time_left"] > 2.0].copy()
     elig = elig[~elig["personnel_id"].isin(exclude_ids)]
-    elig = elig[elig["designation"].apply(lambda d: meets_threshold(d, workshop.min_designation))]
+    elig = elig[elig["designation"].apply(
+        lambda d: designation_allowed(d, workshop.allowed_designations, workshop.min_designation)
+    )]
     if elig.empty:
         elig["ml_match_probability"] = []
         elig["ai_reason"] = []

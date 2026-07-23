@@ -29,6 +29,30 @@ def meets_threshold(designation: str, min_designation: str | None) -> bool:
     return designation_rank(designation) <= designation_rank(min_designation)
 
 
+def expand_threshold(min_designation: str | None) -> list[str]:
+    """Expand a threshold ("AE") into the explicit list of qualifying grades."""
+    if not min_designation:
+        return list(DESIGNATION_HIERARCHY)
+    r = designation_rank(min_designation)
+    return [d for d in DESIGNATION_HIERARCHY if designation_rank(d) <= r]
+
+
+def parse_designations(csv: str | None) -> list[str]:
+    return [d.strip() for d in (csv or "").split(",") if d.strip()]
+
+
+def designation_allowed(designation: str, allowed_csv: str | None, min_designation: str | None) -> bool:
+    """
+    Eligibility rule. If the workshop lists specific allowed grades, use exact
+    membership; otherwise fall back to the legacy 'min_designation & above'
+    threshold (keeps pre-existing workshops working).
+    """
+    allowed = parse_designations(allowed_csv)
+    if allowed:
+        return designation in allowed
+    return meets_threshold(designation, min_designation)
+
+
 # Training topics used across the platform.
 TOPICS = ["AI", "Signal", "Content", "Administration", "Awareness"]
 

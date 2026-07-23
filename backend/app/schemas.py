@@ -45,6 +45,7 @@ class WorkshopBase(BaseModel):
     domain: str
     topic: Optional[str] = None
     min_designation: Optional[str] = None
+    allowed_designations: Optional[List[str]] = None  # specific eligible grades
     level_of_participants: Optional[str] = None
     from_date: Optional[str] = None
     to_date: Optional[str] = None

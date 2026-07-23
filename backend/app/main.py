@@ -23,7 +23,9 @@ import os
 from .database import get_db, engine, Base
 from . import models, schemas, ml, chatbot, services
 from .security import verify_password
-from .constants import TOPICS, DESIGNATION_HIERARCHY, schedule_status
+from .constants import (
+    TOPICS, DESIGNATION_HIERARCHY, schedule_status, parse_designations, designation_rank,
+)
 from .seed import seed_if_empty
 
 Base.metadata.create_all(bind=engine)
@@ -48,9 +50,26 @@ app.add_middleware(
 )
 
 
+def _ensure_schema():
+    """
+    Lightweight auto-migration for additive columns, so pushing new code doesn't
+    require dropping the production database. Safe/idempotent on Postgres & SQLite.
+    """
+    from sqlalchemy import inspect, text
+    insp = inspect(engine)
+    if "workshops" not in insp.get_table_names():
+        return  # fresh DB — create_all will build it with all columns
+    cols = {c["name"] for c in insp.get_columns("workshops")}
+    if "allowed_designations" not in cols:
+        with engine.begin() as conn:
+            conn.execute(text("ALTER TABLE workshops ADD COLUMN allowed_designations VARCHAR"))
+        print("Migrated: added workshops.allowed_designations")
+
+
 @app.on_event("startup")
 def _startup():
-    """On boot: create tables, seed the DB if empty (prod first run), train the model."""
+    """On boot: migrate schema, seed if empty (prod first run), train the model."""
+    _ensure_schema()
     db = next(get_db())
     try:
         if seed_if_empty(db):
@@ -83,10 +102,11 @@ def login(body: schemas.LoginRequest, db: Session = Depends(get_db)):
 
 # ---------- Workshops ----------
 def _workshop_out(ws: models.Workshop) -> schemas.WorkshopOut:
-    """Serialize a workshop and attach the derived schedule status."""
+    """Serialize a workshop, splitting allowed_designations CSV into a list."""
     return schemas.WorkshopOut(
         program_id=ws.program_id, title=ws.title, domain=ws.domain,
         topic=ws.topic, min_designation=ws.min_designation,
+        allowed_designations=parse_designations(ws.allowed_designations),
         level_of_participants=ws.level_of_participants,
         from_date=ws.from_date, to_date=ws.to_date, duration_days=ws.duration_days,
         venue=ws.venue, capacity=ws.capacity, target_zone=ws.target_zone,
@@ -102,6 +122,13 @@ def get_workshops(topic: str | None = None, db: Session = Depends(get_db)):
     return [_workshop_out(w) for w in q.all()]
 
 
+@app.get("/api/workshop-titles", response_model=list[str])
+def get_workshop_titles(db: Session = Depends(get_db)):
+    """Distinct existing titles, for the admin title autocomplete."""
+    rows = db.query(models.Workshop.title).distinct().order_by(models.Workshop.title).all()
+    return [r[0] for r in rows if r[0]]
+
+
 @app.get("/api/meta")
 def get_meta():
     """Enumerations the frontend needs: topics + designation hierarchy."""
@@ -112,7 +139,13 @@ def get_meta():
 def create_workshop(body: schemas.WorkshopCreate, db: Session = Depends(get_db)):
     if db.get(models.Workshop, body.program_id):
         raise HTTPException(status_code=409, detail="Program_ID already exists")
-    ws = models.Workshop(**body.model_dump())
+    data = body.model_dump()
+    grades = data.pop("allowed_designations", None) or []
+    ws = models.Workshop(**data)
+    ws.allowed_designations = ",".join(grades) if grades else None
+    # Keep min_designation populated (most-senior selected) for legacy/display.
+    if grades:
+        ws.min_designation = min(grades, key=designation_rank)
     db.add(ws)
     db.commit()
     db.refresh(ws)

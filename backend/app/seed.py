@@ -13,7 +13,7 @@ import pandas as pd
 from .database import Base, engine, SessionLocal
 from . import models
 from .security import hash_password
-from .constants import TOPICS, TECHNICAL_TOPICS, DESIGNATION_HIERARCHY
+from .constants import TOPICS, TECHNICAL_TOPICS, DESIGNATION_HIERARCHY, expand_threshold
 
 # CSVs are bundled inside the backend so deployment is self-contained.
 DATA_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "data"))
@@ -62,9 +62,11 @@ def _load(db):
 
     # Workshops
     for _, r in _csv("training_workshops.csv").iterrows():
+        min_desig = r.get("Min_Designation")
         db.add(models.Workshop(
             program_id=r["Program_ID"], title=r["Title"], domain=r["Domain"],
-            topic=r.get("Topic"), min_designation=r.get("Min_Designation"),
+            topic=r.get("Topic"), min_designation=min_desig,
+            allowed_designations=",".join(expand_threshold(min_desig)),
             level_of_participants=r["Level_Of_Participants"],
             from_date=str(r["From_Date"]), to_date=str(r["To_Date"]),
             duration_days=int(r["Duration_Days"]), venue=r["Venue"],

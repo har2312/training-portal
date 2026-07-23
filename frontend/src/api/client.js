@@ -26,6 +26,7 @@ export const api = {
 
   // Workshops
   getWorkshops: (topic) => request(`/api/workshops${topic ? `?topic=${encodeURIComponent(topic)}` : ""}`),
+  getWorkshopTitles: () => request("/api/workshop-titles"),
   createWorkshop: (data) =>
     request("/api/workshops", { method: "POST", body: JSON.stringify(data) }),
 

@@ -47,7 +47,8 @@ class Workshop(Base):
     title = Column(String, nullable=False)
     domain = Column(String, nullable=False, index=True)           # legacy stream tag (display)
     topic = Column(String, index=True)                            # AI/Signal/Content/Administration/Awareness
-    min_designation = Column(String)                              # threshold: "AE" => AE & above
+    min_designation = Column(String)                              # legacy threshold fallback: "AE" => AE & above
+    allowed_designations = Column(String)                        # CSV of specific eligible grades, e.g. "DDG,AD,EA"
     level_of_participants = Column(String)                        # legacy label (display)
     from_date = Column(String)                                    # ISO date strings, kept as-is
     to_date = Column(String)
