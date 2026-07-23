@@ -31,12 +31,17 @@ Base.metadata.create_all(bind=engine)
 app = FastAPI(title="Smart Training Allotment System")
 
 # Allowed frontend origins come from FRONTEND_ORIGIN (comma-separated) in prod,
-# falling back to the local Vite dev server. e.g.
-#   FRONTEND_ORIGIN=https://my-app.vercel.app
+# plus the local Vite dev server. By default we also allow any *.vercel.app
+# origin via regex, so preview/production Vercel URLs work without reconfiguring.
+#   FRONTEND_ORIGIN=https://my-app.vercel.app          (exact origins)
+#   FRONTEND_ORIGIN_REGEX=https://.*\.vercel\.app      (override the default)
 _origins = os.getenv("FRONTEND_ORIGIN", "http://localhost:5173")
+_origin_list = [o.strip().rstrip("/") for o in _origins.split(",") if o.strip()]
+_origin_regex = os.getenv("FRONTEND_ORIGIN_REGEX", r"https://.*\.vercel\.app")
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[o.strip() for o in _origins.split(",") if o.strip()],
+    allow_origins=_origin_list,
+    allow_origin_regex=_origin_regex,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

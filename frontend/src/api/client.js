@@ -1,6 +1,8 @@
 // Central API client. All fetches go through here so the base URL and
 // error handling live in one place.
-const BASE = import.meta.env.VITE_API_URL || "http://localhost:8000";
+// Strip any trailing slash(es) so a VITE_API_URL like "https://api.example.com/"
+// doesn't produce a broken "https://api.example.com//api/login".
+const BASE = (import.meta.env.VITE_API_URL || "http://localhost:8000").replace(/\/+$/, "");
 
 async function request(path, options = {}) {
   const res = await fetch(`${BASE}${path}`, {
