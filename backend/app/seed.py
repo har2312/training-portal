@@ -71,6 +71,9 @@ def _load(db):
             capacity=int(r["Capacity"]), target_zone=r["Target_Zone"],
         ))
 
+    # Commit parents first so FK children below satisfy constraints on Postgres.
+    db.commit()
+
     # Historical (ML training data)
     for _, r in _csv("historical_allotments.csv").iterrows():
         db.add(models.HistoricalAllotment(

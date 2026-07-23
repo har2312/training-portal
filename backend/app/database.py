@@ -10,7 +10,7 @@ psycopg v3 driver that this project installs, so no manual editing is needed.
     Prod:   DATABASE_URL=postgres://user:pass@host/db?sslmode=require
 """
 import os
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, event
 from sqlalchemy.orm import sessionmaker, declarative_base
 
 
@@ -34,6 +34,16 @@ engine_kwargs = {} if IS_SQLITE else {"pool_pre_ping": True, "pool_recycle": 300
 engine = create_engine(DATABASE_URL, connect_args=connect_args, **engine_kwargs)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 Base = declarative_base()
+
+
+# Enforce foreign keys on SQLite too (off by default), so local dev matches
+# PostgreSQL's behaviour and FK-ordering bugs surface here, not in production.
+if IS_SQLITE:
+    @event.listens_for(engine, "connect")
+    def _sqlite_fk_pragma(dbapi_conn, _):
+        cur = dbapi_conn.cursor()
+        cur.execute("PRAGMA foreign_keys=ON")
+        cur.close()
 
 
 def get_db():
