@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Local database (recreated by seeding)
+*.db
+training_portal.db
+
+# Node / frontend
+node_modules/
+dist/
+.vite/
+
+# Env & secrets
+.env
+.env.local
+*.local
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

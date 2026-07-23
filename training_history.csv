@@ -1,0 +1,304 @@
+Personnel_ID,Topic,Title,Completed_Date
+PB001,Signal,Satellite Uplinking,2022-07-29
+PB001,Signal,Digital Transmitter Maintenance,2024-08-17
+PB001,Signal,Satellite Uplinking,2021-12-02
+PB001,Signal,Satellite Uplinking,2026-01-09
+PB001,Signal,RF & Antenna Systems,2024-02-29
+PB001,Signal,RF & Antenna Systems,2022-10-17
+PB003,Signal,Satellite Uplinking,2022-06-24
+PB003,Signal,RF & Antenna Systems,2024-10-15
+PB003,Signal,Satellite Uplinking,2026-02-02
+PB003,Content,Vernacular Storytelling,2024-01-21
+PB003,Signal,Satellite Uplinking,2022-01-29
+PB004,Signal,Satellite Uplinking,2022-04-18
+PB004,Signal,Satellite Uplinking,2026-05-06
+PB004,Administration,GeM Procurement,2025-09-28
+PB004,Signal,Satellite Uplinking,2024-05-02
+PB004,Signal,Digital Transmitter Maintenance,2026-04-18
+PB005,Signal,Satellite Uplinking,2021-11-09
+PB005,Signal,Satellite Uplinking,2022-11-21
+PB005,Signal,Satellite Uplinking,2025-07-24
+PB005,Signal,Digital Transmitter Maintenance,2023-06-16
+PB008,AI,AI for Content Tagging,2021-11-12
+PB008,AI,AI for Content Tagging,2021-09-07
+PB008,Administration,GeM Procurement,2024-08-12
+PB009,Administration,Financial Rules,2025-11-23
+PB009,Signal,Digital Transmitter Maintenance,2022-10-15
+PB009,Awareness,Media Ethics Workshop,2021-08-19
+PB009,Signal,Digital Transmitter Maintenance,2023-03-18
+PB011,Signal,Satellite Uplinking,2024-03-24
+PB011,AI,Generative AI in Media,2024-12-29
+PB011,Signal,RF & Antenna Systems,2026-02-23
+PB012,AI,Machine Learning Basics,2022-08-20
+PB012,Signal,Satellite Uplinking,2023-01-07
+PB012,Signal,Satellite Uplinking,2022-11-11
+PB012,Content,Documentary Production,2023-02-10
+PB012,Signal,Satellite Uplinking,2022-09-07
+PB012,Signal,Digital Transmitter Maintenance,2023-12-03
+PB015,Administration,Vigilance Procedures,2025-01-22
+PB015,Administration,GeM Procurement,2021-09-08
+PB015,Administration,GeM Procurement,2025-10-11
+PB015,Signal,Satellite Uplinking,2023-12-19
+PB017,Signal,RF & Antenna Systems,2023-07-09
+PB017,Signal,Digital Transmitter Maintenance,2022-10-23
+PB017,Signal,Satellite Uplinking,2022-04-07
+PB017,Awareness,Media Ethics Workshop,2025-12-06
+PB017,Administration,GeM Procurement,2022-09-20
+PB017,Signal,RF & Antenna Systems,2026-01-03
+PB018,AI,AI for Content Tagging,2025-04-17
+PB018,Administration,GeM Procurement,2024-10-06
+PB018,Signal,Satellite Uplinking,2026-01-04
+PB018,Content,Vernacular Storytelling,2025-06-27
+PB018,Content,Vernacular Storytelling,2021-10-21
+PB019,AI,AI for Content Tagging,2023-09-08
+PB020,AI,AI for Content Tagging,2023-07-17
+PB020,AI,AI for Content Tagging,2026-03-04
+PB020,AI,Generative AI in Media,2025-06-22
+PB020,Content,Documentary Production,2024-04-07
+PB021,AI,Generative AI in Media,2022-01-26
+PB021,Signal,Satellite Uplinking,2021-07-26
+PB021,Administration,Financial Rules,2023-04-07
+PB021,Signal,Satellite Uplinking,2025-10-16
+PB021,Administration,Vigilance Procedures,2022-03-29
+PB021,Signal,RF & Antenna Systems,2024-04-23
+PB022,AI,AI for Content Tagging,2022-02-03
+PB023,AI,Generative AI in Media,2022-12-05
+PB023,Content,Studio Direction,2021-10-12
+PB023,AI,Generative AI in Media,2022-10-17
+PB024,AI,AI for Content Tagging,2022-03-10
+PB024,Signal,RF & Antenna Systems,2024-09-30
+PB024,Administration,Vigilance Procedures,2023-07-04
+PB024,Signal,Digital Transmitter Maintenance,2023-08-22
+PB024,AI,AI for Content Tagging,2026-04-03
+PB026,AI,Generative AI in Media,2025-10-13
+PB026,AI,Machine Learning Basics,2025-02-13
+PB026,AI,AI for Content Tagging,2023-01-28
+PB026,AI,Machine Learning Basics,2022-11-18
+PB027,AI,AI for Content Tagging,2021-11-19
+PB028,AI,AI for Content Tagging,2025-11-03
+PB028,Content,Vernacular Storytelling,2024-02-15
+PB028,AI,Generative AI in Media,2022-10-06
+PB028,Awareness,Disaster Communication,2022-10-04
+PB028,AI,Generative AI in Media,2023-06-23
+PB029,AI,AI for Content Tagging,2026-05-18
+PB029,AI,Machine Learning Basics,2026-03-28
+PB029,AI,AI for Content Tagging,2025-06-26
+PB030,Signal,RF & Antenna Systems,2022-12-11
+PB030,Signal,Satellite Uplinking,2025-07-31
+PB030,Signal,RF & Antenna Systems,2022-12-20
+PB030,Signal,Satellite Uplinking,2022-10-13
+PB030,Signal,Satellite Uplinking,2023-07-12
+PB030,Signal,Digital Transmitter Maintenance,2022-11-14
+PB031,Awareness,Public Service Orientation,2026-05-05
+PB031,Administration,Financial Rules,2025-12-05
+PB031,Signal,Digital Transmitter Maintenance,2025-02-10
+PB031,Signal,Digital Transmitter Maintenance,2022-10-08
+PB031,Signal,RF & Antenna Systems,2022-03-05
+PB032,Signal,Satellite Uplinking,2026-01-31
+PB032,Administration,Financial Rules,2022-07-14
+PB032,Content,Documentary Production,2022-10-12
+PB032,Signal,Digital Transmitter Maintenance,2023-07-14
+PB032,Signal,RF & Antenna Systems,2025-01-20
+PB032,Signal,RF & Antenna Systems,2025-06-26
+PB033,AI,Machine Learning Basics,2024-03-13
+PB033,Administration,Financial Rules,2021-08-08
+PB034,Awareness,Public Service Orientation,2023-09-30
+PB034,AI,AI for Content Tagging,2021-07-27
+PB034,AI,AI for Content Tagging,2022-04-25
+PB034,AI,AI for Content Tagging,2024-08-26
+PB034,AI,AI for Content Tagging,2023-02-05
+PB035,Signal,Digital Transmitter Maintenance,2026-03-12
+PB035,AI,AI for Content Tagging,2022-11-22
+PB035,AI,Generative AI in Media,2025-08-01
+PB035,AI,AI for Content Tagging,2026-02-22
+PB036,AI,AI for Content Tagging,2022-06-21
+PB036,AI,Generative AI in Media,2021-07-29
+PB036,Signal,RF & Antenna Systems,2021-10-17
+PB036,AI,Generative AI in Media,2022-02-21
+PB036,AI,AI for Content Tagging,2024-12-30
+PB037,AI,Generative AI in Media,2026-03-09
+PB039,Content,Documentary Production,2023-09-14
+PB039,Signal,RF & Antenna Systems,2021-12-09
+PB039,Signal,Satellite Uplinking,2024-08-03
+PB039,Signal,Satellite Uplinking,2026-04-06
+PB039,Signal,Digital Transmitter Maintenance,2024-10-17
+PB039,Content,Studio Direction,2024-07-30
+PB040,AI,Generative AI in Media,2024-10-06
+PB040,Administration,Vigilance Procedures,2026-03-16
+PB040,AI,Machine Learning Basics,2025-10-29
+PB040,AI,Generative AI in Media,2026-02-09
+PB041,Signal,Digital Transmitter Maintenance,2021-07-18
+PB041,Signal,Digital Transmitter Maintenance,2024-10-07
+PB041,Signal,Digital Transmitter Maintenance,2023-06-11
+PB041,Signal,Digital Transmitter Maintenance,2022-03-03
+PB043,AI,Generative AI in Media,2023-08-16
+PB043,Signal,RF & Antenna Systems,2023-08-10
+PB044,Awareness,Disaster Communication,2024-12-01
+PB044,Content,Documentary Production,2021-10-22
+PB045,AI,AI for Content Tagging,2025-06-13
+PB045,AI,Generative AI in Media,2023-08-18
+PB045,AI,Generative AI in Media,2025-10-16
+PB045,AI,Machine Learning Basics,2025-11-05
+PB045,AI,Generative AI in Media,2024-01-05
+PB047,Content,Vernacular Storytelling,2024-11-25
+PB047,Awareness,Public Service Orientation,2025-06-02
+PB048,Content,Documentary Production,2023-10-18
+PB048,Content,Studio Direction,2022-02-23
+PB048,AI,Generative AI in Media,2024-06-04
+PB048,Content,Vernacular Storytelling,2025-07-04
+PB048,Content,Vernacular Storytelling,2025-06-05
+PB049,Content,Documentary Production,2023-02-17
+PB049,Content,Studio Direction,2023-10-15
+PB049,Signal,Digital Transmitter Maintenance,2023-07-14
+PB050,Content,Studio Direction,2022-06-08
+PB050,Content,Documentary Production,2025-07-03
+PB051,Content,Vernacular Storytelling,2023-06-14
+PB051,Content,Documentary Production,2024-07-16
+PB051,Content,Documentary Production,2022-04-17
+PB051,Content,Documentary Production,2022-09-09
+PB051,Content,Documentary Production,2025-07-13
+PB052,Awareness,Public Service Orientation,2024-09-16
+PB052,Awareness,Disaster Communication,2025-10-07
+PB052,Content,Vernacular Storytelling,2025-03-22
+PB052,Awareness,Public Service Orientation,2026-04-23
+PB052,Administration,GeM Procurement,2022-06-28
+PB052,Awareness,Public Service Orientation,2022-10-31
+PB053,Awareness,Disaster Communication,2024-12-08
+PB053,AI,AI for Content Tagging,2022-03-23
+PB053,Administration,Financial Rules,2022-06-13
+PB054,Administration,GeM Procurement,2021-08-20
+PB054,Awareness,Media Ethics Workshop,2021-08-07
+PB054,AI,Machine Learning Basics,2023-11-01
+PB054,Content,Studio Direction,2022-11-09
+PB056,Content,Studio Direction,2024-02-19
+PB056,Signal,Satellite Uplinking,2024-12-22
+PB056,Content,Studio Direction,2026-04-08
+PB057,Content,Studio Direction,2022-08-05
+PB057,Signal,Satellite Uplinking,2022-09-16
+PB057,Administration,Vigilance Procedures,2021-09-18
+PB057,AI,Machine Learning Basics,2026-03-01
+PB057,Content,Studio Direction,2025-06-23
+PB057,Signal,Satellite Uplinking,2023-06-20
+PB059,Awareness,Media Ethics Workshop,2023-05-06
+PB059,Awareness,Disaster Communication,2026-04-16
+PB059,Content,Vernacular Storytelling,2023-06-15
+PB059,Awareness,Media Ethics Workshop,2023-10-26
+PB059,Signal,RF & Antenna Systems,2024-03-06
+PB059,AI,Generative AI in Media,2022-04-16
+PB060,Content,Vernacular Storytelling,2024-11-03
+PB060,Content,Documentary Production,2026-04-21
+PB061,Content,Vernacular Storytelling,2023-02-15
+PB061,Awareness,Disaster Communication,2024-09-04
+PB061,Awareness,Media Ethics Workshop,2023-06-04
+PB062,Administration,GeM Procurement,2025-03-10
+PB062,Content,Documentary Production,2022-01-09
+PB062,Signal,RF & Antenna Systems,2023-10-01
+PB062,Content,Documentary Production,2025-02-10
+PB062,Content,Vernacular Storytelling,2022-10-18
+PB062,Content,Studio Direction,2024-09-23
+PB063,Content,Vernacular Storytelling,2021-09-14
+PB063,Content,Documentary Production,2021-08-10
+PB063,Content,Studio Direction,2024-04-08
+PB063,Content,Studio Direction,2023-12-28
+PB063,Content,Studio Direction,2026-05-13
+PB064,Awareness,Disaster Communication,2025-01-02
+PB064,Awareness,Public Service Orientation,2023-09-09
+PB064,Awareness,Media Ethics Workshop,2022-10-21
+PB064,Content,Vernacular Storytelling,2025-07-10
+PB064,AI,Generative AI in Media,2025-11-25
+PB064,Signal,Satellite Uplinking,2023-05-28
+PB065,Awareness,Media Ethics Workshop,2022-09-10
+PB065,Awareness,Disaster Communication,2025-12-22
+PB065,Awareness,Media Ethics Workshop,2022-12-20
+PB065,Awareness,Media Ethics Workshop,2021-08-03
+PB065,Awareness,Public Service Orientation,2023-11-05
+PB066,Awareness,Disaster Communication,2024-02-14
+PB066,Awareness,Disaster Communication,2022-07-09
+PB066,AI,Generative AI in Media,2022-08-18
+PB066,Content,Vernacular Storytelling,2025-04-09
+PB066,Awareness,Disaster Communication,2025-12-08
+PB066,AI,AI for Content Tagging,2023-04-08
+PB067,Content,Documentary Production,2021-09-28
+PB067,Content,Documentary Production,2023-04-03
+PB068,Content,Studio Direction,2025-07-27
+PB068,Content,Documentary Production,2023-08-02
+PB068,Content,Documentary Production,2022-04-05
+PB069,Administration,Financial Rules,2022-06-23
+PB070,Administration,Vigilance Procedures,2024-04-11
+PB070,Content,Documentary Production,2022-08-03
+PB070,Content,Studio Direction,2024-05-10
+PB071,Content,Documentary Production,2022-12-17
+PB071,Content,Documentary Production,2021-11-04
+PB071,Content,Documentary Production,2023-08-30
+PB071,Content,Vernacular Storytelling,2022-05-09
+PB071,Content,Studio Direction,2025-11-06
+PB072,Content,Studio Direction,2022-01-05
+PB072,Content,Vernacular Storytelling,2025-03-13
+PB073,Awareness,Disaster Communication,2024-12-19
+PB073,Awareness,Public Service Orientation,2024-10-03
+PB073,Awareness,Public Service Orientation,2023-08-11
+PB074,Administration,Financial Rules,2024-11-08
+PB074,Administration,Financial Rules,2025-03-28
+PB075,Content,Vernacular Storytelling,2025-04-20
+PB075,Signal,RF & Antenna Systems,2023-02-02
+PB075,Administration,Vigilance Procedures,2026-02-25
+PB076,Awareness,Disaster Communication,2024-02-07
+PB076,Awareness,Public Service Orientation,2024-02-22
+PB076,Awareness,Media Ethics Workshop,2026-02-12
+PB076,Administration,Financial Rules,2022-12-19
+PB076,Awareness,Disaster Communication,2023-07-28
+PB077,Administration,Financial Rules,2025-07-21
+PB077,Awareness,Media Ethics Workshop,2022-07-24
+PB077,Administration,Financial Rules,2022-08-21
+PB077,Administration,GeM Procurement,2022-02-07
+PB079,Awareness,Public Service Orientation,2026-03-04
+PB079,AI,AI for Content Tagging,2024-04-23
+PB079,Awareness,Public Service Orientation,2022-05-25
+PB079,Signal,Digital Transmitter Maintenance,2024-01-06
+PB079,Awareness,Disaster Communication,2023-12-18
+PB080,Administration,Vigilance Procedures,2026-01-27
+PB080,Administration,GeM Procurement,2026-02-27
+PB080,Administration,Financial Rules,2023-02-25
+PB080,Administration,GeM Procurement,2026-01-01
+PB080,Awareness,Disaster Communication,2023-01-22
+PB081,Awareness,Disaster Communication,2024-01-25
+PB084,Administration,Financial Rules,2025-07-12
+PB084,Administration,GeM Procurement,2026-05-09
+PB084,AI,AI for Content Tagging,2021-07-25
+PB084,Administration,GeM Procurement,2025-09-12
+PB084,Administration,Financial Rules,2024-10-31
+PB085,Awareness,Disaster Communication,2022-04-07
+PB085,Awareness,Public Service Orientation,2026-02-05
+PB085,Signal,Digital Transmitter Maintenance,2022-04-15
+PB085,Awareness,Disaster Communication,2023-04-03
+PB086,Administration,GeM Procurement,2024-12-14
+PB086,AI,AI for Content Tagging,2026-01-14
+PB086,Awareness,Public Service Orientation,2025-12-06
+PB087,Administration,GeM Procurement,2023-01-05
+PB087,Administration,GeM Procurement,2022-12-18
+PB088,Administration,Financial Rules,2023-02-26
+PB088,Administration,GeM Procurement,2022-08-01
+PB089,AI,Generative AI in Media,2024-05-05
+PB090,Administration,Vigilance Procedures,2023-09-15
+PB091,Content,Studio Direction,2021-12-24
+PB091,Awareness,Media Ethics Workshop,2024-10-22
+PB091,Awareness,Disaster Communication,2024-07-07
+PB091,AI,AI for Content Tagging,2021-09-19
+PB091,Content,Vernacular Storytelling,2023-02-06
+PB091,Signal,Satellite Uplinking,2024-04-07
+PB092,Administration,GeM Procurement,2022-01-20
+PB092,Content,Documentary Production,2022-07-08
+PB092,Administration,Vigilance Procedures,2024-11-16
+PB092,Administration,GeM Procurement,2021-10-20
+PB092,Administration,Financial Rules,2025-08-03
+PB093,Administration,Financial Rules,2021-08-09
+PB094,Administration,Financial Rules,2024-06-07
+PB094,Awareness,Public Service Orientation,2023-04-11
+PB094,Signal,RF & Antenna Systems,2021-12-17
+PB094,Signal,RF & Antenna Systems,2024-08-23
+PB094,Awareness,Public Service Orientation,2024-02-29
+PB095,Awareness,Disaster Communication,2024-12-13
+PB095,Administration,Financial Rules,2023-10-20
+PB095,Awareness,Public Service Orientation,2021-11-09
+PB095,Signal,RF & Antenna Systems,2024-02-23
+PB095,Awareness,Disaster Communication,2024-12-03

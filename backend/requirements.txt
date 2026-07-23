@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+pandas
+numpy
+scikit-learn
+bcrypt
+psycopg[binary]      # PostgreSQL driver (psycopg v3) for production

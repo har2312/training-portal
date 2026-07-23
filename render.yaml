@@ -1,0 +1,19 @@
+# Optional Render Blueprint. You can deploy manually via the dashboard instead
+# (see DEPLOYMENT.md) — this file just pre-fills the web-service settings.
+#
+# DATABASE_URL and FRONTEND_ORIGIN are marked sync:false, so Render will prompt
+# you to paste them in the dashboard (keeps secrets out of git).
+services:
+  - type: web
+    name: training-portal-api
+    runtime: python
+    rootDir: backend
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: FRONTEND_ORIGIN
+        sync: false

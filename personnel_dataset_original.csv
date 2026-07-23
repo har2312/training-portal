@@ -1,0 +1,31 @@
+Personnel_ID,Name,Designation,Stream,Qualification,Zone,Station,Age,Service_Time_Left,Trainings_Completed,Performance_Score
+PB001,S Natarajan,DDG,Engineering,M.Tech (Telecom),South,Chennai,52,8.0,4,8
+PB002,VENKATARAMANA RAO B,DDG,Engineering,B.Tech (Electronics),South,Chennai,59,1.0,1,7
+PB003,GOMATHY M,DD,Engineering,B.Tech (Electrical),South,Chennai,45,15.0,2,6
+PB004,K P SANJEEV,DD,Engineering,B.E. (Electronics),South,Chennai,38,22.0,0,9
+PB005,MURTHY K.T.,DD,Engineering,M.Tech (Digital),South,Chennai,41,19.0,5,8
+PB006,Neelam Singh,DDG,Engineering,M.Sc (Electronics),North,Delhi,55,5.0,3,7
+PB007,RUCHI AGARWAL,DDG,Engineering,B.Tech (Telecom),North,Delhi,48,12.0,6,9
+PB008,SANJAY PRASAD,DDG,Engineering,B.E. (Computer Science),North,Delhi,58,2.0,0,5
+PB009,GAUTAM SINGH BANSAL,DD,Engineering,B.Tech (Electronics),North,Delhi,34,26.0,1,8
+PB010,RAJESH KUMAR SHARMA,DD,Engineering,B.E. (Electronics),North,Delhi,31,29.0,0,10
+PB011,ANIL KUMAR SHARMA,AD,Engineering,Diploma (Electronics),North,Delhi,44,16.0,4,6
+PB012,OM PRAKASH RAJPUROHIT,AD,Engineering,B.Tech (Electrical),North,Delhi,29,31.0,0,7
+PB013,ANURADHA AGARWAL,ADG,Engineering,M.Tech (Communication),North,Delhi,53,7.0,5,9
+PB014,BIDYA PATAR,AD,Programme,M.A. (Mass Communication),North-East,Guwahati,42,18.0,2,8
+PB015,DEEPAK SARMAH,AD,Programme,PG Diploma (Journalism),North-East,Guwahati,36,24.0,1,6
+PB016,MUKUL KUMAR TALUKDAR,AD,Programme,M.A. (Journalism),North-East,Guwahati,51,9.0,3,7
+PB017,L Manibabu Singh,AD,Programme,B.A. (Media Studies),North-East,Imphal,59,1.2,0,5
+PB018,SANJIB KUMAR BORTHAKUR,AD,Programme,M.A. (Mass Comm),North-East,Itanagar,47,13.0,4,8
+PB019,INDU VERMA,AD,Programme,M.A. (English literature),North,Jalandhar,33,27.0,0,9
+PB020,Puneet Sehgal,AD,Programme,PG Diploma (Mass Comm),North,Jalandhar,40,20.0,1,7
+PB021,Malini Mukhopadhyay,AD,Programme,M.A. (Journalism),East,Kolkata,46,14.0,2,8
+PB022,Rama Arun Trivedi,AD,Programme,M.A. (Mass Communication),North,Lucknow,52,8.0,5,6
+PB023,P.K. Singh,DDG,Engineering,B.Tech (Electronics),North,Srinagar,54,6.0,3,8
+PB024,G. D. Tahir,AD,Programme,B.A. (Journalism),North,Srinagar,30,30.0,0,7
+PB025,R. Krishna Das,DD,Engineering,M.Tech (Telecom),South,Thiruvananthapuram,49,11.0,4,9
+PB026,Baiju Chandran,AD,Programme,M.A. (Mass Comm),South,Thiruvananthapuram,35,25.0,1,8
+PB027,P.S. DEVADAS,AD,Engineering,B.E. (Electrical),South,Thrissur,58,1.8,2,6
+PB028,T.N. LATHAMONY,PEX,Programme,B.Sc (Visual Comm),South,Thrissur,28,32.0,0,8
+PB029,V. Seetharam,DD,Engineering,B.Tech (Electronics),South,Tirupati,43,17.0,3,7
+PB030,Amitabh Kumar,PEX,Programme,M.A. (Mass Comm),West,Mumbai,32,28.0,0,9

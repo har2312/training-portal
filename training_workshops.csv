@@ -1,0 +1,17 @@
+Program_ID,Title,Domain,Topic,Min_Designation,Level_Of_Participants,From_Date,To_Date,Duration_Days,Venue,Capacity,Target_Zone
+D26AI01,AI for Automated Content Tagging,Engineering,AI,AD,AD & above,2026-08-11,2026-08-15,5,Delhi,6,All
+W26SG02,5G Broadcast & Signal Distribution,Engineering,Signal,AE,AE & above,2026-08-16,2026-08-20,5,Mumbai,8,West
+S26SG03,Satellite Uplinking & RF Systems,Engineering,Signal,SEA,SEA & above,2026-08-26,2026-08-30,5,Bengaluru,5,South
+N26CN04,Regional Content & Storytelling,Programme,Content,AD,AD & above,2026-08-21,2026-08-25,5,Delhi,7,All
+E26AW05,Election Coverage & Media Ethics,Programme,Awareness,AD,AD & above,2026-08-31,2026-09-04,5,Kolkata,8,East
+D26AD06,GeM Procurement & Vigilance,Administration,Administration,DD,DD & above,2026-09-05,2026-09-07,3,Delhi,18,All
+C26AI07,Machine Learning for Broadcast Networks,Engineering,AI,DD,DD & above,2026-09-10,2026-09-14,5,Bhopal,6,All
+NE26SG08,Digital Broadcasting (Skill-Gap Fill),Engineering,Signal,AE,AE & above,2026-08-06,2026-08-10,5,Shillong,10,North-East
+D26AI09,Generative AI in Newsrooms,Engineering,AI,AD,AD & above,2026-07-15,2026-07-20,6,Delhi,8,All
+W26AW10,Disaster Communication Drill,Programme,Awareness,AD,AD & above,2026-07-16,2026-07-20,5,Pune,12,West
+D26SG11,Transmitter Maintenance Basics,Engineering,Signal,EA,EA & above,2026-06-07,2026-06-11,5,Delhi,15,All
+S26CN12,Studio Direction Fundamentals,Programme,Content,AD,AD & above,2026-05-18,2026-05-22,5,Chennai,12,South
+D26AD13,Financial Management in Govt,Administration,Administration,AD,AD & above,2026-06-17,2026-06-20,4,Delhi,20,All
+C26AW14,Public Service Broadcasting Orientation,Programme,Awareness,Helper,All Officers,2026-05-03,2026-05-05,3,Bhopal,25,All
+E26AI15,Intro to AI Tools,Engineering,AI,EA,EA & above,2026-05-28,2026-05-31,4,Kolkata,10,East
+N26SG16,OB Van & Field Signal Ops,Engineering,Signal,AE,AE & above,2026-09-15,2026-09-19,5,Delhi,6,North

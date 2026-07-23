@@ -1,0 +1,96 @@
+Personnel_ID,Name,Designation,Stream,Specialization,Qualification,Zone,Station,Age,Service_Time_Left,Trainings_Completed,Performance_Score
+PB001,Bhavna Chatterjee,EA,Engineering,Signal,M.Tech (Telecom),North,Chandigarh,34,1.3,6,4
+PB002,Grace Kumar,Director,Engineering,AI,B.Tech (Electronics),North,Chandigarh,55,3.3,0,5
+PB003,Farhan Reddy,AD,Engineering,Signal,B.Tech (Communication),North-East,Imphal,46,14.1,5,8
+PB004,Lata Menon,AD,Engineering,Signal,M.Sc (Computer Science),North,Chandigarh,32,28.8,5,7
+PB005,Alok Sinha,Senior Tech,Engineering,Signal,B.Tech (Communication),East,Bhubaneswar,39,22.5,4,8
+PB006,Preeti Dutta,SEA,Engineering,AI,Diploma (Electronics),East,Siliguri,32,26.6,0,10
+PB007,Nisha Dutta,EA,Engineering,Signal,M.Tech (Signal Proc.),Central,Bhopal,48,11.7,0,7
+PB008,Suresh Iyer,AE,Engineering,AI,M.Tech (Signal Proc.),Central,Bhopal,31,30.7,3,8
+PB009,Kiran Deshpande,SEA,Engineering,Signal,B.Tech (Communication),West,Pune,38,23.1,4,5
+PB010,Naveen Pillai,EA,Engineering,AI,M.Sc (Computer Science),West,Mumbai,38,22.2,0,5
+PB011,Divya Kumar,SEA,Engineering,AI,B.Tech (Electronics),South,Bengaluru,33,25.9,3,5
+PB012,Bijoy Fernandes,DD,Engineering,Signal,Diploma (Electronics),East,Kolkata,37,23.1,6,8
+PB013,Naveen Barua,DDG,Engineering,AI,M.Sc (Computer Science),Central,Gwalior,53,7.0,0,7
+PB014,Anjali Shah,Director,Engineering,AI,M.Tech (Telecom),West,Ahmedabad,35,0.5,0,5
+PB015,Devendra George,DDG,Engineering,Signal,Diploma (Electronics),South,Vijayawada,52,6.7,4,6
+PB016,Tenzin Das,Director,Engineering,AI,Diploma (Electronics),West,Nagpur,58,1.6,0,9
+PB017,Swati Ghosh,DD,Engineering,Signal,B.Tech (Communication),North,Jaipur,51,7.7,6,4
+PB018,Meena Singh,Tech,Engineering,Signal,M.Tech (AI/ML),South,Hyderabad,42,18.7,5,6
+PB019,Vijay Pillai,EA,Engineering,AI,M.Tech (Signal Proc.),South,Vijayawada,59,0.5,1,6
+PB020,Swati Shah,SEA,Engineering,AI,M.Tech (AI/ML),Central,Indore,51,7.4,4,7
+PB021,Jyoti Rao,Senior Tech,Engineering,Signal,M.Tech (Telecom),North-East,Guwahati,58,4.5,6,9
+PB022,Pooja Deshpande,AD,Engineering,AI,M.Sc (Computer Science),South,Kochi,49,9.4,1,9
+PB023,Nasreen Bhat,Director,Engineering,AI,B.E. (Electrical),South,Bengaluru,29,29.8,3,10
+PB024,Tenzin Joshi,DD,Engineering,Signal,M.Tech (Telecom),North-East,Imphal,29,29.1,5,9
+PB025,Preeti Bose,EA,Engineering,AI,Diploma (Electronics),South,Chennai,44,15.1,0,10
+PB026,Swati Ahmed,EA,Engineering,AI,M.Sc (Computer Science),North,Dehradun,50,12.5,4,10
+PB027,Ankit Bose,Tech,Engineering,AI,B.Tech (Electronics),North-East,Aizawl,29,33.4,1,8
+PB028,Nisha Patel,DD,Engineering,AI,M.Tech (Signal Proc.),North-East,Guwahati,31,28.6,5,8
+PB029,Shalini Khan,DDG,Engineering,AI,B.Tech (Electronics),South,Hyderabad,30,31.9,3,8
+PB030,Suresh Rathore,SEA,Engineering,Signal,M.Tech (Signal Proc.),North-East,Aizawl,40,21.5,6,8
+PB031,Ankit Pillai,Tech,Engineering,Signal,Diploma (Electronics),North-East,Imphal,56,2.7,5,7
+PB032,Deepa Pillai,EA,Engineering,Signal,Diploma (Electronics),South,Mysuru,47,14.9,6,5
+PB033,Sanjay Singh,DD,Engineering,AI,M.Tech (AI/ML),South,Mysuru,34,26.0,2,9
+PB034,Ashok Chauhan,Tech,Engineering,AI,B.Tech (Electronics),East,Ranchi,40,19.8,5,6
+PB035,Jyoti Khan,Senior Tech,Engineering,AI,M.Tech (Telecom),Central,Bhopal,52,7.7,4,8
+PB036,Ravi Naidu,Director,Engineering,Signal,B.E. (Electrical),East,Patna,30,32.5,5,10
+PB037,Thomas Singh,EA,Engineering,AI,B.E. (Electrical),North-East,Aizawl,59,2.5,1,4
+PB038,Thomas Nair,AE,Engineering,Signal,B.Tech (Communication),Central,Bhopal,44,14.4,0,4
+PB039,Pooja Sinha,DDG,Engineering,Signal,B.E. (Electrical),North-East,Agartala,45,1.6,6,4
+PB040,Swati Reddy,DD,Engineering,AI,B.Tech (Communication),East,Patna,41,18.4,4,5
+PB041,Sameer Verma,AE,Engineering,Signal,M.Tech (Telecom),North,Delhi,40,20.6,4,7
+PB042,Grace Dutta,Tech,Engineering,AI,B.E. (Electrical),North-East,Shillong,41,21.9,0,10
+PB043,Zoya Joshi,DDG,Engineering,AI,B.Tech (Communication),North,Delhi,44,1.5,2,7
+PB044,Neha Yadav,DDG,Engineering,AI,Diploma (Electronics),South,Bengaluru,45,15.2,2,6
+PB045,Neha Gupta,AE,Engineering,AI,M.Tech (AI/ML),East,Bhubaneswar,28,31.7,5,6
+PB046,Neha Barua,ADG,Programme,Content,PG Diploma (Journalism),East,Kolkata,37,0.5,0,6
+PB047,Ramesh Fernandes,AD,Programme,Content,PG Diploma (Journalism),Central,Gwalior,52,9.8,2,7
+PB048,Kiran George,DDG,Programme,Content,B.Sc (Visual Comm),Central,Gwalior,55,6.7,5,5
+PB049,Ankit Sheikh,ADG,Programme,Content,M.A. (Mass Communication),North-East,Imphal,33,25.2,3,6
+PB050,Yogesh Rathore,AD,Programme,Content,B.Sc (Visual Comm),Central,Bhopal,43,1.7,2,9
+PB051,Vivek Iyer,AD,Programme,Content,PG Diploma (Journalism),Central,Jabalpur,44,18.0,5,5
+PB052,Radha Sinha,DD,Programme,Awareness,PG Diploma (Journalism),North,Shimla,46,15.8,6,9
+PB053,Deepa Thomas,DDG,Programme,Awareness,M.A. (Mass Communication),East,Patna,36,0.9,3,9
+PB054,Uma Dutta,Director,Programme,Content,PG Diploma (Journalism),North-East,Shillong,57,3.3,4,8
+PB055,Seema Iyer,DD,Programme,Content,M.A. (Journalism),East,Ranchi,32,30.1,0,7
+PB056,Madhuri Rao,DDG,Programme,Content,PG Diploma (Journalism),North-East,Guwahati,37,24.7,3,6
+PB057,Shreya Kaur,ADG,Programme,Content,PG Diploma (Journalism),East,Bhubaneswar,59,3.5,6,4
+PB058,Amit Dutta,DD,Programme,Awareness,M.A. (Journalism),East,Bhubaneswar,54,5.7,0,10
+PB059,Amit Tiwari,Director,Programme,Awareness,M.A. (Mass Communication),North,Jaipur,28,34.5,6,6
+PB060,Farhan Deshpande,AD,Programme,Content,M.A. (Journalism),East,Ranchi,45,17.3,2,4
+PB061,Nisha Pillai,Director,Programme,Awareness,M.A. (Mass Communication),North-East,Shillong,40,21.9,3,7
+PB062,Zoya Khan,AD,Programme,Content,PG Diploma (Journalism),Central,Bhopal,31,31.7,6,8
+PB063,Kiran Dutta,ADG,Programme,Content,M.A. (Journalism),South,Bengaluru,58,2.1,5,6
+PB064,Zoya Pillai,Director,Programme,Awareness,B.Sc (Visual Comm),North-East,Agartala,35,23.8,6,5
+PB065,Rimi Khan,DDG,Programme,Awareness,PG Diploma (Journalism),East,Ranchi,55,3.7,5,4
+PB066,Jyoti Khan,ADG,Programme,Awareness,B.A. (Media Studies),South,Hyderabad,44,18.0,6,4
+PB067,Madhuri Kumar,AD,Programme,Content,M.A. (Journalism),West,Pune,49,12.8,2,8
+PB068,Naveen Barua,AD,Programme,Content,B.A. (Media Studies),South,Chennai,45,17.5,3,9
+PB069,Grace Mishra,ADG,Programme,Content,B.A. (Media Studies),North,Shimla,58,4.8,1,4
+PB070,Preeti Sinha,DD,Programme,Content,B.A. (Media Studies),North,Jaipur,37,21.8,3,4
+PB071,Ramesh Khan,ADG,Programme,Content,M.A. (Journalism),South,Bengaluru,30,31.2,5,5
+PB072,Preeti Chauhan,ADG,Programme,Content,M.A. (Mass Communication),North,Lucknow,40,19.9,2,8
+PB073,Sunita Ahmed,Director,Programme,Awareness,M.A. (Mass Communication),East,Patna,43,17.4,3,5
+PB074,Imran Mishra,ADG,Administration,Administration,LLB,South,Kochi,54,4.4,2,7
+PB075,Radha Dutta,ADG,Administration,Administration,LLB,East,Ranchi,51,10.4,3,10
+PB076,Ankit Nair,DDG,Administration,Awareness,LLB,South,Hyderabad,40,19.2,5,10
+PB077,Shalini George,DD,Administration,Administration,M.A. (Public Admin),South,Bengaluru,59,1.1,4,8
+PB078,Farhan Reddy,DDG,Administration,Administration,LLB,North-East,Imphal,54,1.1,0,9
+PB079,Ravi Iyer,DDG,Administration,Awareness,LLB,South,Bengaluru,57,1.2,5,7
+PB080,Nitin Rathore,DDG,Administration,Administration,PG Diploma (Finance),North,Delhi,45,13.4,5,4
+PB081,Dinesh Deshpande,Director,Administration,Awareness,M.Com,West,Mumbai,31,30.5,1,8
+PB082,Vijay Tiwari,Director,Administration,Administration,M.B.A. (HR),West,Mumbai,54,5.2,0,7
+PB083,Yogesh Gupta,DD,Administration,Administration,LLB,North,Lucknow,40,21.7,0,6
+PB084,Mahesh Pandey,AD,Administration,Administration,M.B.A. (HR),East,Patna,45,14.5,5,8
+PB085,Kavita Naidu,ADG,Administration,Awareness,M.Com,Central,Jabalpur,52,9.9,4,10
+PB086,Naveen Dutta,DDG,Administration,Administration,M.Com,Central,Indore,37,24.0,3,6
+PB087,Devendra Thomas,ADG,Administration,Administration,PG Diploma (Finance),South,Kochi,38,0.6,2,8
+PB088,Bhavna Banerjee,DD,Administration,Administration,M.Com,North,Lucknow,33,26.0,2,9
+PB089,Praveen Naidu,DDG,Administration,Awareness,M.B.A. (HR),West,Panaji,43,18.7,1,9
+PB090,Anita Yadav,Director,Administration,Administration,M.A. (Public Admin),East,Patna,44,17.7,1,5
+PB091,Neha Pillai,DDG,Administration,Awareness,PG Diploma (Finance),North-East,Imphal,48,10.3,6,5
+PB092,Preeti Naidu,ADG,Administration,Administration,M.Com,West,Mumbai,34,24.0,5,5
+PB093,Pallavi Gupta,Director,Administration,Administration,M.B.A. (HR),North,Delhi,40,21.0,1,5
+PB094,Pallavi Barua,DDG,Administration,Awareness,LLB,North-East,Shillong,28,30.5,5,8
+PB095,Uma Gupta,Director,Administration,Awareness,M.B.A. (HR),South,Chennai,41,1.6,5,5
